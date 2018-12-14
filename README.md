@@ -34,4 +34,7 @@
 33. Birthday Dictionaries  
 34. Birthday Json   
 35. Birthday Months   
-36. Birthday Plots    
+36. Birthday Plots 
+
+
+### Learn Python exercises
