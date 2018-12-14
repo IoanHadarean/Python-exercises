@@ -7,6 +7,7 @@ myfloat and should contain the number 10.0, and the
 integer should be named myint and should contain the number 20.
 
 """
+
 mystring = "hello"
 myfloat = 10.0
 myint = 20
