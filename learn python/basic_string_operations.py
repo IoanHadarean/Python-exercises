@@ -2,7 +2,7 @@
     Try to fix the code to print out the correct information by changing the string.
 """
 
-s = "Hey there! what should this string be?"
+s = "Strings are awesome"
 # Length should be 20
 print("Length of s = %d" % len(s))
 
