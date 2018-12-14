@@ -36,5 +36,4 @@
 35. Birthday Months   
 36. Birthday Plots 
 
-
 ### Learn Python exercises
