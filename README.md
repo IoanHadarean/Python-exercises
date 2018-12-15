@@ -37,3 +37,12 @@
 36. Birthday Plots 
 
 ### Learn Python exercises
+
+1. Variables and types
+2. Lists
+3. Basic operators
+4. String formatting
+5. Basic string operations
+6. Conditions
+7. Loops
+8. Functions
