@@ -20,3 +20,50 @@ for number in numbers:
        break
    elif(number % 2 == 0):
        print(number)
+
+
+
+
+
+
+
+"""
+    Else for loops
+"""
+
+
+# Prints out 0,1,2,3,4 and then it prints "count value reached 5"
+
+count=0
+while(count<5):
+    print(count)
+    count +=1
+else:
+    print("count value reached %d" %(count))
+
+# Prints out 1,2,3,4
+for i in range(1, 10):
+    if(i%5==0):
+        break 
+    print(i)
+else:
+    print("not printed because for loop is terminated(break), but not due to fail in condition")
+    
+
+
+# Prints out 0,1,2,3,4 and then it prints "count value reached 5"
+
+count=0
+while(count<5):
+    print(count)
+    count +=1
+else:
+    print("count value reached %d" %(count))
+
+# Prints out 1,2,3,4
+for i in range(1, 10):
+    if(i%5==0):
+        continue
+    print(i)
+else:
+    print("printed even if there is a continue statement, it just keeps iterating through the values then a fail condition happens")
