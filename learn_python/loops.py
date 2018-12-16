@@ -15,11 +15,13 @@ numbers = [
 ]
 
 # your code goes here
+continua = 1
 for number in numbers:
    if(number == 237):
-       break
-   elif(number % 2 == 0):
-       print(number)
+       continua = 0
+   if((number % 2 == 0) & (continua == 1)):
+       print(number) 
+
 
 
 
@@ -33,7 +35,7 @@ for number in numbers:
 
 
 # Prints out 0,1,2,3,4 and then it prints "count value reached 5"
-
+"""
 count=0
 while(count<5):
     print(count)
@@ -67,3 +69,4 @@ for i in range(1, 10):
     print(i)
 else:
     print("printed even if there is a continue statement, it just keeps iterating through the values then a fail condition happens")
+"""

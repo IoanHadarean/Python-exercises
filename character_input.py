@@ -10,5 +10,10 @@ print(name)
 age = int(input("How old are you: "))
 print(age)
 year = str((2018 - age) + 100)
+height = input("How tall are you?")
+x = 4
+for x in height:
+    print(height)
+
 print(name + " will be 100 years old in the year " + year)
 
