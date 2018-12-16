@@ -13,9 +13,9 @@
 num = int(input("Tell me a number: "))
 check = int(input("Give me the number to divide by: "))
 
-if number % 2 == 0 & number % 4 != 0:
+if num % 2 == 0 & num % 4 != 0:
     print(num + "is even")
-elif number % 2 == 1:
+elif num % 2 == 1:
     print(num + "is odd")
 else:
     print(num + "is multiple of 4")
