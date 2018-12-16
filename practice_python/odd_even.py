@@ -14,14 +14,14 @@ num = int(input("Tell me a number: "))
 check = int(input("Give me the number to divide by: "))
 
 if num % 2 == 0 & num % 4 != 0:
-    print(num + "is even")
+    print(num, "is even")
 elif num % 2 == 1:
-    print(num + "is odd")
+    print(num, "is odd")
 else:
-    print(num + "is multiple of 4")
+    print(num, "is multiple of 4")
     
 if num % check == 0:
-    print(check + "divides evenly into " + num)
+    print(check, "divides evenly into" , num)
 else:
-    print(check + "does not divide evenly into " + num)
+    print(check , "does not divide evenly into", num)
     
