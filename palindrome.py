@@ -5,16 +5,22 @@
 
 number = int(input("Please enter a number: "))
 
-num = int(number) #we need to declare another variable that stores the input
+num = number #we need to declare another variable that stores the input
 
-i = 0 
+
 v = 0
+
+#Watch out, in Python / returns a float
+
 while(num > 0):
-    i = i % 10   #takes every digit of the number
+    i = num % 10   #takes every digit of the number
     v = v * 10 + i  #appends each digit in a new number
-    num = num/10    #goes through the number digits until it reaches 0
+    num = num//10    #goes through the number digits until it reaches 0
+
+#Be careful you compare the stored number
+#from the input with the new number  
     
-if(num == v):
+if(number == v):
     print("%d is palindrome" % number)
 else:
     print("%d is not palindrome" % number)
