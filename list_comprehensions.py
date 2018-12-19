@@ -8,6 +8,8 @@
 
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
+
+"""
 b = []
 
 
@@ -16,3 +18,10 @@ for elem in a:
         b.append(elem)
         
 print(b)
+"""
+
+
+#writing previous code in one line
+b = [elem for elem in a if elem % 2 == 0]
+print(b)
+
