@@ -22,6 +22,6 @@ print(b)
 
 
 #writing previous code in one line
-b = [elem for elem in a if elem % 2 == 0]
-print(b)
+print([elem for elem in a if elem % 2 == 0])
+
 
