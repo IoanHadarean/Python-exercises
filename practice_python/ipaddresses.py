@@ -1,4 +1,6 @@
-ipAddress = input("Please enter an IP Address: ")
+input_prompt = ("Please enter an IP Address. An IP address consists of 4 numbers, "
+                "separated from each other with a full stop: ")
+ipAddress = input(input_prompt)
 if ipAddress[-1] != '.':
     ipAddress += "."
 segment = 1
