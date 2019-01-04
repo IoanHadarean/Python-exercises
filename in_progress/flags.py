@@ -1,4 +1,3 @@
-cul = "rnagvpm"
 def show(sol, k, cul, nrsol):
     print("solution number {0} ".format(nrsol))
     for i in range(0, k+1):
@@ -15,7 +14,7 @@ def validate(sol, k):
 
         
 def backtrackingi(cul):
-    sol= []
+    sol = []
     k = 0
     nrsol = 0
     sol[k] = -1
@@ -32,13 +31,12 @@ def backtrackingi(cul):
         else:
             k -= 1
 
-backtrackingi("rnagvpm")
-# def main():
-#     cul = "rnagvpm"
-#     backtrackingi(cul)
+def main():
+    cul = "rnagvpm"
+    backtrackingi(cul)
         
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
 
  
